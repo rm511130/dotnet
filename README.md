@@ -1,7 +1,7 @@
 # dotnet
 .NET Core Welcome
 
-- Using a Linux VM, that has [`dotnet`](https://dotnet.microsoft.com/download/dotnet-core/3.1) installed, and execute the following commands:
+- Using a Linux VM that has [`dotnet`](https://dotnet.microsoft.com/download/dotnet-core/3.1) installed, execute the following commands:
 
 ```
 git clone https://github.com/rm511130/dotnet.git 
@@ -14,7 +14,7 @@ dotnet run --urls http://0.0.0.0:5001
 
 - Now you can use a browser to access your .NET Core Welcome App at `http://127.0.0.1:5001`
 
-- Now, if your Linux VM also has [`docker`](https://docs.docker.com/engine/install/) installed, you can execute the following commands:
+- If your Linux VM also has [`docker`](https://docs.docker.com/engine/install/) installed, you can execute the following commands:
 
 ```
 dotnet publish -c Release
