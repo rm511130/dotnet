@@ -1,3 +1,4 @@
+#!/bin/sh
 # This script changes the standard Dot Net MVC demo to say "Welcome User1"
 # and sets the URL entry point to http://0.0.0.0:5001
 
