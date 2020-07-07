@@ -8,7 +8,6 @@ git clone https://github.com/rm511130/dotnet.git
 cd ~/dotnet
 dotnet new global
 dotnet new mvc 
-sed -i "s/Welcome/Welcome Traveller/g" ~/dotnet/Views/Home/Index.cshtml
 dotnet run --urls http://0.0.0.0:5001
 ```
 
